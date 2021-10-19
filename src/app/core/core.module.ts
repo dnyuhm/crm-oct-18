@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { IconsModule } from '../icons/icons.module';
 import { LoginModule } from '../login/login.module';
+import { OrdersModule } from '../orders/orders.module';
 import { TemplatesModule } from '../templates/templates.module';
 import { UiModule } from '../ui/ui.module';
 import { FooterComponent } from './components/footer/footer.component';
