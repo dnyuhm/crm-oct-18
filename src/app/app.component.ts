@@ -13,6 +13,7 @@ export class AppComponent {
   });
   private subj = new Subject();
   private behave = new BehaviorSubject(0);
+  // private sub!: Subscription;
   constructor() {
     // this.obs.subscribe((string) => console.log(string));
     // this.obs.subscribe((string) => console.log(string));
@@ -21,9 +22,13 @@ export class AppComponent {
     // this.subj.next('hello2');
     // this.subj.subscribe((data) => console.log(data));
     // this.subj.next(Math.random());
-    // this.behave.subscribe((data) => console.log(data));
+    // this.sub = this.behave.subscribe((data) => console.log(data));
     // this.behave.next(1);
     // this.behave.next(2);
     // this.behave.subscribe((data) => console.log(data));
   }
+
+  // ngOnDestroy(): void {
+  //   this.sub.unsubscribe();
+  // }
 }
